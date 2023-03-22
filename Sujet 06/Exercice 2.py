@@ -12,5 +12,5 @@ def plus_courte_distance(tab, depart):
     for i in range (1, len(tab)):
         if distance(tab[i], depart)<min_dist:
             point = tab[i]
-            min_dist = distance(tab[i], depart)
+            min_dist = distance(point, depart)
     return point
