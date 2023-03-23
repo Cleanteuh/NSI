@@ -6,3 +6,4 @@ def recherche (a, tab):
     return r 
 
 print(recherche(5, [-2, 5, 3, 5, 4, 5]))
+

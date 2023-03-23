@@ -8,5 +8,5 @@ def empaqueter(liste_masses, c):
                 i = i + 1
         if i == nb_boites + 1:
                 nb_boites += 1
-        boites[i] += masse
-    return nb_boites+1
+        boites[i] = boites[i] + masse
+    return nb_boites + 1 
